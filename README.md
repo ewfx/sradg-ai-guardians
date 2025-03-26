@@ -1,60 +1,35 @@
-# 🚀 Project Name
+# 🚀 Anomalies Detection
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
 - [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
 - [Tech Stack](#tech-stack)
-- [Team](#team)
 
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
-
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
-
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+This Project access and fetch the realtime data stream and save the data into excel which contains anomalies. 
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
-
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Fetch the real time anomalies data and store it in Excel
+Retrieve the anomalies using API
+Developed both POST /predict amd GET /anomalies endpoint to save and get the anomalies to and from anomalies.xlsx file
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   git clone https://github.com/ewfx/sradg-ai-guardians.git
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Backend: Python
+- 🔹 Database: Excel
+- 🔹 Other: OpenAI API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
+- AIGardians
 - **Teammate 2** - [GitHub](#) | [LinkedIn](#)
